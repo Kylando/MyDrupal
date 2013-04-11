@@ -1,0 +1,14 @@
+<?php
+
+/*
+ * Implementation of hook_field_presave()
+ */
+function mydrupal_node_presave($node){
+dpm($node, '$node');
+  // if($form_id == "office_node_form") {
+  //   $form['field_country']['und'][0]['value']['#default_value'] = 'Belgique';
+  //   $form['field_country']['und'][0]['value']['#prefix'] = '<div style="visibility:hidden">';
+  //   $form['field_country']['und'][0]['value']['#suffix'] = '</div>';
+  //}
+
+}

@@ -1,0 +1,6 @@
+name = My Drupal - Form
+description = Example of form
+version =  0.1
+core = 7.x
+package = My Drupal Custom Modules
+configure = admin/config/mydrupalform

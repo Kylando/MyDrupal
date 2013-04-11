@@ -1,0 +1,54 @@
+
+body{
+
+}
+
+
+#page {
+  width: 1000px;
+  margin: auto;
+}
+
+#header .region-header{
+  width: 950px;
+}
+#block-system-main-menu{
+  clear: both;
+}
+#block-system-main-menu a {
+  color: red;
+  font-family: Verdana,Arial,"sans-serif";
+}
+
+#block-system-main-menu ul {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  width: 925px;
+}
+
+
+#block-system-main-menu ul li {
+   background-color: #FFFFFF;
+   border: dotted 1.5px black;
+   display: table-cell;
+   height: 50px;
+   font-size: 20px;
+   text-align: center;
+   vertical-align: middle;
+   width: 185px ;
+   /*border: solid 1px black ;*/
+}
+#block-search-form {
+  float: right;
+  clear: both;
+}
+
+.node-type-office select.form-select{
+  width : 167px !important;
+}
+
+/*div {
+  border: 1px solid black;
+}*/
+

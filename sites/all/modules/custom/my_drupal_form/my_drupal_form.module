@@ -1,0 +1,17 @@
+<?php
+/*
+ * Implementation
+ */
+
+function my_drupal_form_menu() {
+  $items['admin/config/mydrupalform'] = array(
+    'title' => 'My Drupal form',
+    'description' => 'An example of my Drupal form',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('my_drupal_form_admin_form'),
+    'access arguments' => array('administer site configuration'),
+    'file' => 'my_drupal_form.admin.inc',
+    'type' => MENU_NORMAL_ITEM,
+    );
+  return $items;
+}
